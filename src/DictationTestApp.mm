@@ -6,7 +6,7 @@ using namespace ci::app;
 using namespace std;
 
 // Set to 0 to observe crash caused by dictation destroying the OpenGL context.
-#define FIX_CRASH_ON_DICTATION 1
+#define FIX_CRASH_ON_DICTATION 0
 #include "RootViewController.h"
 
 RootViewController *ROOT_VIEW_CONTROLLER;
